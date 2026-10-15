@@ -1,3 +1,11 @@
-As a <type of user>
-I need <some feature>
-So that <some reason/benefit>
+[nosetests]
+verbosity=2
+with-spec=1
+spec-color=1
+with-coverage=1
+cover-erase=1
+cover-package=service
+
+[flake8]
+max-line-length = 127
+ignore = E501
